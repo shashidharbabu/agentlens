@@ -1,0 +1,23 @@
+# Core — required for stub mode (no API / no GPU)
+Pillow>=10.0.0
+numpy>=1.24.0
+pytest>=7.4.0
+
+# Real-mode LLM (Vision / Prompt / Critique)
+anthropic>=0.39.0
+
+# CLIP automatic evaluation signal (rubric 3.4)
+# If torch install is painful, you can skip these and the critique
+# agent will fall back to an SSIM-style similarity automatically.
+open_clip_torch>=2.24.0
+torch>=2.0.0
+
+# Generation backends — pick what you need
+requests>=2.31.0       # Stability API
+# replicate>=0.25.0    # uncomment if using Replicate
+
+# Local open-source generation (no API key, no credits required)
+# backend="diffusers" uses SD 1.5 img2img; auto-detects MPS/CUDA/CPU.
+diffusers>=0.27.0
+transformers>=4.40.0
+accelerate>=0.30.0
