@@ -22,6 +22,9 @@ env/
 # Output artifacts (large generated images + reports — use assets/ for tracked images)
 outputs/
 
+# Source screenshots folder (contents copied to assets/ for the repo)
+data/output/
+
 # Jupyter
 .ipynb_checkpoints/
 *.ipynb

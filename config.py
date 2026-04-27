@@ -2,7 +2,7 @@
 
 STUB_MODE=True lets the whole pipeline run without any API keys or GPU.
 This is the default so `python run_demo.py` works out of the box on a
-fresh clone. Set STUB_MODE=False (or export CLAUDE_API_KEY etc.) to use
+fresh clone. Set STUB_MODE=False (or export ANTHROPIC_API_KEY etc.) to use
 real models.
 """
 from __future__ import annotations

@@ -304,7 +304,7 @@ Three generation modes with different denoising strengths:
 |---|---|---|
 | `stylize` | 0.75 | Large style change — allows the model to depart significantly from the input image |
 | `enhance` | 0.30 | Subtle adjustment — preserves most of the input, applies light color/sharpness edits |
-| `variation` | 0.55 | Moderate variation — balanced between content preservation and creative change |
+| `variation` | 0.60 | Moderate variation — balanced between content preservation and creative change |
 
 **Fixed parameters (all runs):**
 - `inference_steps`: 30
