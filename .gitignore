@@ -19,7 +19,7 @@ venv/
 env/
 .env/
 
-# Output artifacts (large generated images + reports)
+# Output artifacts (large generated images + reports — use assets/ for tracked images)
 outputs/
 
 # Jupyter
